@@ -1,6 +1,7 @@
 *{
     margin-bottom: 0px;
     padding-bottom: 0px;
+
 }
 body{
     display: flex;
@@ -9,13 +10,13 @@ body{
     background-color: #FAFBFD;
 }
 .paper{
-    width: 500px;
+    width: 382.4px;
     height: 647px;
     background-color: #ffffff;
     border: #c7c7c7 1px solid;
     padding-left: 58.8px;
     padding-right: 58.8px;
-    padding-top: 29.25px;
+    padding-top: 25px;
 }
 h1{
     font-size: 30px;
@@ -56,12 +57,14 @@ li{
     font-weight: bolder;
     display: inline-block;
     color: #353744;
+    margin-top: 18px;
 }
-.italy{
+span{
     font-size: 12px;
     color: #6b6b6b;
     font-style: italic;
     display: inline-block;
+    font-weight: normal;
 }
 .date{
     font-size: 10px;
