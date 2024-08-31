@@ -15,6 +15,8 @@ trollOffButton.addEventListener("click", () => {
     body1.classList.add("body-fix")
 
     paper.classList.remove("paper-troll")
+
+    document.title = "Resume"
 })
 trollOnButton.addEventListener("click", () => {
     picture1.classList.add("img")
@@ -27,7 +29,10 @@ trollOnButton.addEventListener("click", () => {
     body1.classList.remove("body-fix")
 
     paper.classList.add("paper-troll")
+
+    document.title = "Resume - Google Docs"
 })
 window.onload = function() {
     trollOffButton.click();
+    document.title = "Resume"
 }
